@@ -7,25 +7,53 @@ body{
 }
 
 .header--name{
-    font-size: 75px;
+    font-size: 50px;
     font-weight: bolder;
-    position: fixed;
+    margin-left: 15px;
 }
 
 li{
     list-style: none;
     margin: 10px;
     float: right;
-    font-size: large;
-    font-weight: bold;
+    font-size: larger;
+    font-weight: bolder;
 }
 
 .nav{
-    position: fixed;
-    margin-left: 925px;
+    padding-left: 875px;
 }
 
 a{
     color: red;
     text-decoration: none;
+}
+
+.img--boek{
+    float: right;
+    padding-top: 100px;
+    padding-right: 100px;
+}
+
+.quote--boek{
+    color: red;
+    padding-top:250px;
+    padding-left: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.boek{
+    color: red;
+    font-size: 26px;
+}
+
+.boek--left{
+    float: left;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+.boek--right{
+    float: right;
 }
