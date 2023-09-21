@@ -1,59 +1,309 @@
-body{
+/*-----------------Section--header--------------*/
+body {
     background-color: black;
 }
 
-.header{
-    color: red;
+header {
+    color: white;
+    position: fixed;
 }
 
-.header--name{
+.header--name {
     font-size: 50px;
     font-weight: bolder;
     margin-left: 15px;
+    display: inline-block;
 }
 
-li{
-    list-style: none;
-    margin: 10px;
-    float: right;
-    font-size: larger;
+.nav {
+    display: inline;
+    margin-left:  900px;
+}
+
+.nav a {
+    color: white;
+    font-size: 25px;
     font-weight: bolder;
-}
-
-.nav{
-    padding-left: 875px;
-}
-
-a{
-    color: red;
+    padding-left: 10px;
     text-decoration: none;
+
 }
 
-.img--boek{
+/*-----------------Section--book--------------*/
+.img--boek {
     float: right;
     padding-top: 100px;
     padding-right: 100px;
 }
 
-.quote--boek{
+.quote--boek {
     color: red;
-    padding-top:250px;
+    padding-top: 250px;
     padding-left: 30px;
     font-size: 30px;
     font-weight: bold;
 }
 
-.boek{
+.boek {
     color: red;
-    font-size: 26px;
-}
-
-.boek--left{
-    float: left;
+    font-size: 25px;
+    text-align: center;
     padding-left: 30px;
-    padding-top: 5px;
+    margin-top: 525px;
 }
 
-.boek--right{
+/*-----------------Section--podcast--------------*/
+
+.podcast {
+    color: red;
+    padding-top: 275px;
+    font-size: 25px;
     float: right;
+    margin-right: 150px;
+}
+
+.img--podcast {
+    float: left;
+    padding-top: 100px;
+    margin-left: 75px;
+}
+
+.quote--podcast {
+    font-weight: bolder;
+}
+
+.name--quote {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.podcast--gast--tekst {
+    color: red;
+    padding-top: 800px;
+    font-size: 23px;
+    margin-left: 75px;
+}
+
+.Janine {
+    width: 204px;
+    float: right;
+    margin-right: 250px;
+    margin-top: 120px;
+}
+
+.luister--capo {
+    color: red;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+button {
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.button--align {
+    text-align: right;
+    padding-right: 250px;
+    padding-top: 18px;
+}
+
+.button--Janine {
+    display: inline-block;
+    padding: 20px;
+    width: 164px;
+    cursor: pointer;
+    font-size: 18;
+    font-weight: bolder;
+}
+
+.soundcloud {
+    background-color: white;
+    color: black;
+}
+
+.spotify {
+    background-color: white;
+    color: black;
+}
+
+.soundcloud:hover {
+    background-color: black;
+    color: white;
+}
+
+.spotify:hover {
+    background-color: black;
+    color: white;
+}
+
+.podcast--2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 85px;
+}
+
+.per-capi {
+    color: red;
+    font-size: 25px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.gasten--capi {
+    text-align: center;
+    margin-top: 100px;
+    color: red;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.subtitle--podcast {
+    color: red;
+    text-align: center;
+}
+
+.nick--name {
+    text-align: left;
+    padding-left: 30px;
+    color: white;
+}
+
+.springcast--button {
+    display: block;
+    padding: 20px;
+    width: 150px;
+    cursor: pointer;
+    font-size: 18;
+    font-weight: bolder;
+}
+
+.springcast {
+    color: black;
+    background-color: white;
+    margin-left: 75px;
+}
+
+.springcast:hover {
+    color: white;
+    background-color: black;
+}
+
+.podcast--gasten--img1 {
+    margin-left: 130px;
+}
+
+/*section presentation and workshop*/ 
+
+.titel--pw{
+    text-align: center;
+    color: red;
+    font-size: 48px;
+}
+
+.begin--pw{
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+.img--presentation{
+    display: inline-block;
+    width: 514px;
+    padding-left: 300px;
+    padding-top: 75px;
+}
+
+.tekst--rood{
+    color: red;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 100px;
+    font-size: 21px;
+    margin-left: 50px;
+}
+
+.tekst--presentatie{
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    font-size: 21px;
+}
+
+.click{
+    color: red;
+    text-decoration: none;
+}
+
+.tekst--groter{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.tekst--groter1{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.img--workshop{
+    display: inline-block;
+    width: 505px;
+    margin-top: 25px;
+    vertical-align: top;
+    margin-left: 40px;
+}
+
+.tekst--workshop{
+    color: white;
+    display: inline-block;
+    font-size: 21px;
+}
+
+.tekst--rood1{
+    color: red;
+    display: inline-block;
+    font-size: 21px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.presentatie{
+    margin-left: 250px;
+}
+
+/*Over mij */
+
+.over--mij{
+    margin-top: 150px;
+}
+
+.Wie--ben--ik{
+    padding-left: 300px;
+    display: inline-block;
+}
+
+.jan-joost-over-img{
+    width: 375px;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.Wie--is{
+    color: red;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.dikgedrukt--over{
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;;
+}
+
+.ik-ben{
+    color: white;
+    font-size: 21px;
+    display: inline;
 }
