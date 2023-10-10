@@ -212,7 +212,7 @@ button {
 .img--presentation {
     display: inline-block;
     width: 514px;
-    padding-left: 300px;
+    padding-left: 250px;
     padding-top: 75px;
 }
 
@@ -265,7 +265,7 @@ button {
     color: red;
     display: inline-block;
     font-size: 21px;
-    margin-left: 300px;
+    margin-left: 250px;
     margin-top: 50px;
 }
 
