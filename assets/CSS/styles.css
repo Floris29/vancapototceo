@@ -17,7 +17,7 @@ header {
 
 .nav {
     display: inline;
-    margin-left:  900px;
+    margin-left: 750px;
 }
 
 .nav a {
@@ -195,28 +195,28 @@ button {
     margin-left: 130px;
 }
 
-/*section presentation and workshop*/ 
+/*section presentation and workshop*/
 
-.titel--pw{
+.titel--pw {
     text-align: center;
     color: red;
     font-size: 48px;
 }
 
-.begin--pw{
+.begin--pw {
     text-align: center;
     color: white;
     font-size: 24px;
 }
 
-.img--presentation{
+.img--presentation {
     display: inline-block;
     width: 514px;
     padding-left: 300px;
     padding-top: 75px;
 }
 
-.tekst--rood{
+.tekst--rood {
     color: red;
     display: inline-block;
     vertical-align: top;
@@ -225,29 +225,29 @@ button {
     margin-left: 50px;
 }
 
-.tekst--presentatie{
+.tekst--presentatie {
     display: inline-block;
     vertical-align: top;
     color: white;
     font-size: 21px;
 }
 
-.click{
+.click {
     color: red;
     text-decoration: none;
 }
 
-.tekst--groter{
+.tekst--groter {
     font-size: 24px;
     font-weight: bold;
 }
 
-.tekst--groter1{
+.tekst--groter1 {
     font-size: 24px;
     font-weight: bold;
 }
 
-.img--workshop{
+.img--workshop {
     display: inline-block;
     width: 505px;
     margin-top: 25px;
@@ -255,13 +255,13 @@ button {
     margin-left: 40px;
 }
 
-.tekst--workshop{
+.tekst--workshop {
     color: white;
     display: inline-block;
     font-size: 21px;
 }
 
-.tekst--rood1{
+.tekst--rood1 {
     color: red;
     display: inline-block;
     font-size: 21px;
@@ -269,41 +269,74 @@ button {
     margin-top: 50px;
 }
 
-.presentatie{
+.presentatie {
     margin-left: 250px;
 }
 
 /*Over mij */
 
-.over--mij{
+.over--mij {
     margin-top: 150px;
 }
 
-.Wie--ben--ik{
+.Wie--ben--ik {
     padding-left: 300px;
     display: inline-block;
 }
 
-.jan-joost-over-img{
+.jan-joost-over-img {
     width: 375px;
     display: inline-block;
     margin-left: 50px;
 }
 
-.Wie--is{
+.Wie--is {
     color: red;
     font-weight: bolder;
     font-size: 30px;
 }
 
-.dikgedrukt--over{
+.dikgedrukt--over {
     color: white;
     font-weight: bolder;
-    font-size: 25px;;
+    font-size: 25px;
+    ;
 }
 
-.ik-ben{
+.ik-ben {
     color: white;
     font-size: 21px;
     display: inline;
+}
+
+/*contact*/
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.icons {
+    color: white;
+    font-size: 65px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    color: red;
+    font-size: 30px;
+}
+
+/* Footer */
+
+.copyright {
+    background-color: red;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    display: block;
+    text-align: center;
+    font-size: 20px;
 }
