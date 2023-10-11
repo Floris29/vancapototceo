@@ -13,8 +13,8 @@ header {
     position: fixed;
     display: flex;
     align-items: baseline;
-    gap: 925px;
-    padding-top: 50px;
+    gap: 930px;
+    padding-top: 40px;
 }
 
 .header--name {
@@ -44,14 +44,14 @@ header {
 
 .quote--boek {
     color: red;
-    font-size: 24px;
+    font-size: 25px;
     font-weight: bold;
     padding-left: 50px;
 }
 
 .boek-info {
     color: red;
-    font-size: 21px;
+    font-size: 22px;
     text-align: center;
 
 } 
