@@ -280,17 +280,14 @@ button {
 
 .over--mij {
     margin-top: 150px;
-}
-
-.Wie--ben--ik {
-    padding-left: 300px;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    gap: 300px;
 }
 
 .jan-joost-over-img {
     width: 375px;
-    display: inline-block;
-    margin-left: 50px;
+
 }
 
 .Wie--is {
@@ -303,7 +300,6 @@ button {
     color: white;
     font-weight: bolder;
     font-size: 25px;
-    ;
 }
 
 .ik-ben {
