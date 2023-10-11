@@ -223,28 +223,37 @@ button {
 .begin--pw {
     text-align: center;
     color: white;
-    font-size: 24px;
+    font-size: 22px;
+}
+
+/* Presentation */
+
+.presentation{
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
 }
 
 .img--presentation {
-    display: inline-block;
-    width: 514px;
-    padding-left: 250px;
-    padding-top: 75px;
+    width: 505px;
 }
 
 .tekst--rood {
     color: red;
-    display: inline-block;
-    vertical-align: top;
-    padding-top: 100px;
+    padding-top: 65px;
     font-size: 21px;
-    margin-left: 50px;
+
+}
+
+.text-align{
+    padding-left: 75px;
+}
+
+.align-text{
+    padding-right: 600px;
 }
 
 .tekst--presentatie {
-    display: inline-block;
-    vertical-align: top;
     color: white;
     font-size: 21px;
 }
@@ -259,37 +268,21 @@ button {
     font-weight: bold;
 }
 
-.tekst--groter1 {
-    font-size: 24px;
-    font-weight: bold;
+/* Workshop */
+
+.workshop{
+    display: flex;
+    justify-content: center; 
 }
 
 .img--workshop {
-    display: inline-block;
-    width: 505px;
-    margin-top: 25px;
-    vertical-align: top;
-    margin-left: 40px;
+    width: 525px;
 }
 
 .tekst--workshop {
     color: white;
-    display: inline-block;
     font-size: 21px;
 }
-
-.tekst--rood1 {
-    color: red;
-    display: inline-block;
-    font-size: 21px;
-    margin-left: 250px;
-    margin-top: 50px;
-}
-
-.presentatie {
-    margin-left: 250px;
-}
-
 /*Over mij */
 
 .over--mij {
