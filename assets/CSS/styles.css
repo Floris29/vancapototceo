@@ -232,6 +232,7 @@ button {
     margin-top: 75px;
     display: flex;
     justify-content: center;
+    gap: 50px;
 }
 
 .img--presentation {
@@ -242,15 +243,6 @@ button {
     color: red;
     padding-top: 65px;
     font-size: 21px;
-
-}
-
-.text-align{
-    padding-left: 75px;
-}
-
-.align-text{
-    padding-right: 600px;
 }
 
 .tekst--presentatie {
@@ -273,10 +265,11 @@ button {
 .workshop{
     display: flex;
     justify-content: center; 
+    gap: 50px;
 }
 
 .img--workshop {
-    width: 525px;
+    width: 505px;
 }
 
 .tekst--workshop {
