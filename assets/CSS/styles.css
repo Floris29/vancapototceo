@@ -7,6 +7,14 @@ body {
     background-color: black;
 }
 
+.titel{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 100px;
+}
+
 /*-----------------Section--header--------------*/
 
 header {
@@ -39,7 +47,6 @@ nav a {
 }
 
 .img--boek {
-    padding-top: 100px;
     padding-right: 150px;
 }
 
@@ -62,7 +69,7 @@ nav a {
 /* Podcast info */
 
 .podcast {
-    margin-top: 100px;
+    margin-top: 50px;
     color: red;
     font-size: 25px;
     display: flex;
@@ -154,7 +161,7 @@ button {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 85px;
+    margin-top: 50px;
 }
 
 .per-capi {
@@ -222,14 +229,14 @@ button {
 
 .begin--pw {
     text-align: center;
-    color: white;
+    color: red;
     font-size: 22px;
 }
 
 /* Presentation */
 
 .presentation{
-    margin-top: 75px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     gap: 50px;
@@ -279,7 +286,7 @@ button {
 /*Over mij */
 
 .over--mij {
-    margin-top: 150px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     gap: 300px;
