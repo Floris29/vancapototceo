@@ -90,9 +90,7 @@ nav a {
 
 .podcast--gast{
     display: flex;
-    margin-top: 100px;
     gap: 300px;
-
 }
 
 
@@ -100,10 +98,12 @@ nav a {
     color: red;
     font-size: 23px;
     margin-left: 100px;
+    padding-top: 150px;
 }
 
 .Janine {
     width: 204px;
+    padding-top: 100px;
 }
 
 .luister--capo {
