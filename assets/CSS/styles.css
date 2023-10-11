@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 /*-----------------Section--header--------------*/
 body {
     background-color: black;
@@ -9,6 +14,7 @@ header {
     display: flex;
     align-items: baseline;
     gap: 925px;
+    padding-top: 50px;
 }
 
 .header--name {
@@ -17,7 +23,7 @@ header {
 
  nav a {
     color: white;
-    font-size: 25px;
+    font-size: 24px;
     font-weight: bolder;
     padding-left: 10px;
     text-decoration: none;
@@ -25,27 +31,30 @@ header {
 }
 
 /*-----------------Section--book--------------*/
-.img--boek {
-    float: right;
+.boek{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ .img--boek {
     padding-top: 100px;
-    padding-right: 100px;
+    padding-right: 150px;
 }
 
 .quote--boek {
     color: red;
-    padding-top: 250px;
-    padding-left: 30px;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: bold;
+    padding-left: 50px;
 }
 
-.boek {
+.boek-info {
     color: red;
-    font-size: 25px;
+    font-size: 21px;
     text-align: center;
-    padding-left: 30px;
-    margin-top: 525px;
-}
+
+} 
 
 /*-----------------Section--podcast--------------*/
 
