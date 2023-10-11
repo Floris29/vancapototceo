@@ -1,12 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-/*-----------------Section--header--------------*/
 body {
     background-color: black;
 }
+
+/*-----------------Section--header--------------*/
 
 header {
     color: white;
@@ -21,7 +22,7 @@ header {
     padding-left: 25px;
 }
 
- nav a {
+nav a {
     color: white;
     font-size: 24px;
     font-weight: bolder;
@@ -31,13 +32,13 @@ header {
 }
 
 /*-----------------Section--book--------------*/
-.boek{
+.boek {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
- .img--boek {
+.img--boek {
     padding-top: 100px;
     padding-right: 150px;
 }
@@ -46,30 +47,34 @@ header {
     color: red;
     font-size: 25px;
     font-weight: bold;
-    padding-left: 50px;
+    padding-left: 100px;
 }
 
 .boek-info {
     color: red;
     font-size: 22px;
     text-align: center;
-
-} 
+    margin-top: 50px;
+}
 
 /*-----------------Section--podcast--------------*/
 
+/* Podcast info */
+
 .podcast {
+    margin-top: 100px;
     color: red;
-    padding-top: 275px;
     font-size: 25px;
-    float: right;
-    margin-right: 150px;
+    display: flex;
+    gap: 250px;
 }
 
 .img--podcast {
-    float: left;
+    padding-left: 100px;
+}
+
+.podcast-info{
     padding-top: 100px;
-    margin-left: 75px;
 }
 
 .quote--podcast {
@@ -81,18 +86,24 @@ header {
     font-weight: bolder;
 }
 
+/* Gast podcast */
+
+.podcast--gast{
+    display: flex;
+    margin-top: 100px;
+    gap: 300px;
+
+}
+
+
 .podcast--gast--tekst {
     color: red;
-    padding-top: 800px;
     font-size: 23px;
-    margin-left: 75px;
+    margin-left: 100px;
 }
 
 .Janine {
     width: 204px;
-    float: right;
-    margin-right: 250px;
-    margin-top: 120px;
 }
 
 .luister--capo {
@@ -102,16 +113,11 @@ header {
 }
 
 button {
-    padding: 0;
     border: none;
     background: none;
 }
 
-.button--align {
-    text-align: right;
-    padding-right: 250px;
-    padding-top: 18px;
-}
+/* buttons van janine */
 
 .button--Janine {
     display: inline-block;
@@ -141,6 +147,8 @@ button {
     background-color: black;
     color: white;
 }
+
+/* Andere podcast met meer gasten */
 
 .podcast--2 {
     display: block;
