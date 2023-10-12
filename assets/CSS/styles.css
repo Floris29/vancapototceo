@@ -15,6 +15,7 @@ body {
     font-size: 32px;
     margin-top: 100px;
 }
+
 /*-----------------Section--header--------------*/
 
 header {
@@ -22,13 +23,9 @@ header {
     position: fixed;
     display: flex;
     align-items: baseline;
-    gap: 930px;
-    padding-top: 40px;
+    gap: 900px;
 }
 
-.header--name {
-    padding-left: 25px;
-}
 
 nav a {
     color: white;
@@ -44,17 +41,18 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    /* padding-left: 100px; */
 }
 
 .img--boek {
     padding-right: 150px;
+    /* padding-top: 110px; */
 }
 
 .quote--boek {
     color: red;
     font-size: 25px;
     font-weight: bold;
-    padding-left: 100px;
 }
 
 .boek-info {
@@ -350,11 +348,40 @@ button {
     font-size: 20px;
 }
 
+
 /* Mobiele apparaten (kleiner dan 768px) */
 @media only screen and (max-width: 767px) {
-    .img--boek{
-        display: none;
+    p{
+        text-align: center;
     }
+
+    /* Header */
+
+    header {
+        position: absolute;
+        display: inline;
+        text-align: center;
+    }
+
+    .header--name {
+        font-size: 10vw;
+    }
+
+/* boek */
+
+    .boek{
+        display: block;
+        padding-top: 200px;
+    }
+
+    .img--boek {
+        width: 100%;
+        height: auto;
+        padding-top: 50px;
+    }
+
+    /* Podcast */
+    
 }
 
 /* Tablets (768px - 1023px) */
