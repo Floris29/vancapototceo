@@ -16,7 +16,7 @@ body {
     margin-top: 100px;
 }
 
-/*-----------------Section--header--------------*/
+/*-------------------header--------------*/
 
 header {
     color: white;
@@ -36,7 +36,7 @@ nav a {
 
 }
 
-/*-----------------Section--book--------------*/
+/*-------------------boek--------------*/
 .boek {
     display: flex;
     align-items: center;
@@ -45,7 +45,7 @@ nav a {
 }
 
 .img--boek {
-    padding-right: 150px;
+    /* padding-right: 150px; */
     /* padding-top: 110px; */
 }
 
@@ -62,24 +62,24 @@ nav a {
     margin-top: 50px;
 }
 
-/*-----------------Section--podcast--------------*/
+/*-------------------podcast--------------*/
 
-/* Podcast info */
+/* Van Capo tot ceo -- podcast*/
 
 .podcast {
-    margin-top: 50px;
+    /* margin-top: 50px; */
     color: red;
     font-size: 25px;
-    display: flex;
-    gap: 250px;
+    /* display: flex;
+    gap: 250px; */
 }
 
 .img--podcast {
-    padding-left: 100px;
+    /* padding-left: 100px; */
 }
 
 .podcast-info {
-    padding-top: 100px;
+    /* padding-top: 100px; */
 }
 
 .quote--podcast {
@@ -91,18 +91,16 @@ nav a {
     font-weight: bolder;
 }
 
-/* Gast podcast */
-
 .podcast--gast {
-    display: flex;
-    gap: 300px;
+    /* display: flex;
+    gap: 300px; */
 }
 
 
 .podcast--gast--tekst {
     color: red;
     font-size: 23px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     padding-top: 150px;
 }
 
@@ -117,12 +115,12 @@ nav a {
     font-weight: bolder;
 }
 
+/* buttons van janine */
+
 button {
     border: none;
     background: none;
 }
-
-/* buttons van janine */
 
 .button--Janine {
     display: inline-block;
@@ -153,9 +151,9 @@ button {
     color: white;
 }
 
-/* Andere podcast met meer gasten */
+/*-------------------Per Capi--------------*/
 
-.podcast--2 {
+.per-capi-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -186,12 +184,6 @@ button {
     margin-top: 50px;
 }
 
-.nick--name {
-    text-align: left;
-    padding-left: 30px;
-    color: white;
-}
-
 .springcast--button {
     display: block;
     padding: 20px;
@@ -205,7 +197,7 @@ button {
 .springcast {
     color: black;
     background-color: white;
-    margin-left: 75px;
+    /* margin-left: 75px; */
 }
 
 .springcast:hover {
@@ -214,10 +206,10 @@ button {
 }
 
 .podcast--gasten--img1 {
-    margin-left: 130px;
+    /* margin-left: 130px; */
 }
 
-/*section presentation and workshop*/
+/*-------------------Presentation and workshop--------------*/
 
 .titel--pw {
     text-align: center;
@@ -231,30 +223,27 @@ button {
     font-size: 22px;
 }
 
-/* Presentation */
+/*-------------------Presentation--------------*/
 
 .presentation {
-    margin-top: 50px;
+    /* margin-top: 50px;
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 50px; */
 }
 
 .img--presentation {
-    width: 515px;
-
+    /* width: 515px; */
 }
 
 .tekst--rood {
     color: red;
     padding-top: 35px;
     font-size: 21px;
-
 }
 
 .tekst--presentatie {
     color: white;
-    font-size: 21px;
 }
 
 .click {
@@ -267,16 +256,16 @@ button {
     font-weight: bold;
 }
 
-/* Workshop */
+/*-------------------Workshop--------------*/
 
 .workshop {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 20px; */
 }
 
 .img--workshop {
-    width: 505px;
+    /* width: 505px; */
 }
 
 .tekst--workshop {
@@ -284,21 +273,20 @@ button {
     font-size: 21px;
 }
 
-/*Over mij */
+/*-------------------Over mij--------------*/
 
 .over--mij {
     margin-top: 50px;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    gap: 300px;
+    gap: 300px; */
 }
 
 .jan-joost-over-img {
-    width: 375px;
-
+    /* width: 375px; */
 }
 
-.Wie--is {
+.wie--is {
     color: red;
     font-weight: bolder;
     font-size: 30px;
@@ -319,8 +307,8 @@ button {
 /*contact*/
 
 .icons {
-    display: flex;
-    justify-content: space-around;
+    /* display: flex;
+    justify-content: space-around; */
     margin-top: 50px;
 }
 
@@ -330,8 +318,8 @@ button {
 }
 
 .info {
-    display: flex;
-    justify-content: space-around;
+    /* display: flex;
+    justify-content: space-around; */
     color: red;
     font-size: 30px;
 }
@@ -350,12 +338,22 @@ button {
 
 
 /* Mobiele apparaten (kleiner dan 768px) */
-@media only screen and (max-width: 767px) {
-    p{
+@media only screen and (max-width: 428px) {
+    p {
         text-align: center;
+        font-size: 5vw;
     }
 
-    /* Header */
+    h2{
+        font-size: 10vw;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    /*-------------------Beader--------------*/
 
     header {
         position: absolute;
@@ -367,28 +365,72 @@ button {
         font-size: 10vw;
     }
 
-/* boek */
+    nav {
+        margin-top: 10px;
+    }
 
-    .boek{
+    /*-------------------Boek--------------*/
+
+    .boek {
         display: block;
         padding-top: 200px;
     }
 
     .img--boek {
-        width: 100%;
-        height: auto;
         padding-top: 50px;
     }
 
-    /* Podcast */
+    /*-------------------Van Capo tot Ceo -- podcast--------------*/
+
+    .button--align {
+        text-align: center;
+    }
+
+    /*-------------------Per Capi--------------*/
+
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+        text-align: center;
+    }
+
+    .springcast--button {
+        margin: auto;
+    }
+
+    /*-------------------Presentation and workshop--------------*/
+
+    .img--workshop {
+        padding-top: 50px;
+    }
+
+    /*-------------------Over mij--------------*/
     
+    .jan-joost-over-img {
+        padding-top: 50px;
+    }
+
+    .wie--is{
+        text-align: center;
+    }
+
+        /*-------------------Contact--------------*/
+
+        .icons{
+            display: block;
+            margin: auto;
+        }
 }
 
 /* Tablets (768px - 1023px) */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {}
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {}
 
-/* Desktops (1024px - 1439px) */
-@media only screen and (min-width: 1024px) and (max-width: 1439px) {}
+    /* Desktops (1024px - 1439px) */
+    @media only screen and (min-width: 1024px) and (max-width: 1439px) {}
 
-/* Grote schermen (1440px en hoger) */
-@media only screen and (min-width: 1440px) {}
+    /* Grote schermen (1440px en hoger) */
+    @media only screen and (min-width: 1440px) {}
