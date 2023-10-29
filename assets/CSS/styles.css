@@ -18,11 +18,6 @@ header {
     width: 100%;
 }
 
-nav {
-    display: flex;
-    align-items: center;
-}
-
 nav a {
     color: white;
     font-size: 22px;
@@ -461,7 +456,10 @@ button {
         position: fixed;
     }
 
-
+    nav {
+        display: flex;
+        align-items: center;
+    }
 
     /*-------------------Boek--------------*/
 
@@ -555,6 +553,13 @@ button {
 }
 
 @media only screen and (min-width: 1025px) {
+
+    /*------------------Header--------------*/
+
+    nav {
+        display: flex;
+        align-items: center;
+    }
 
     /*-------------------Boek--------------*/
 
