@@ -8,32 +8,27 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.titel {
-    color: white;
-    font-weight: bolder;
-    text-align: center;
-    font-size: 32px;
-    margin-top: 100px;
-}
-
 /*-------------------header--------------*/
 
 header {
     color: white;
     position: fixed;
     display: flex;
-    align-items: baseline;
-    gap: 900px;
+    justify-content: space-between;
+    width: 100%;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+}
 
 nav a {
     color: white;
     font-size: 22px;
     font-weight: bolder;
-    padding-left: 10px;
+    padding: 10px;
     text-decoration: none;
-
 }
 
 /*-------------------boek--------------*/
@@ -41,12 +36,6 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* padding-left: 100px; */
-}
-
-.img--boek {
-    /* padding-right: 150px; */
-    /* padding-top: 110px; */
 }
 
 .quote--boek {
@@ -67,19 +56,8 @@ nav a {
 /* Van Capo tot ceo -- podcast*/
 
 .podcast {
-    /* margin-top: 50px; */
     color: red;
     font-size: 25px;
-    /* display: flex;
-    gap: 250px; */
-}
-
-.img--podcast {
-    /* padding-left: 100px; */
-}
-
-.podcast-info {
-    /* padding-top: 100px; */
 }
 
 .quote--podcast {
@@ -91,22 +69,15 @@ nav a {
     font-weight: bolder;
 }
 
-.podcast--gast {
-    /* display: flex;
-    gap: 300px; */
-}
-
-
 .podcast--gast--tekst {
     color: red;
     font-size: 23px;
-    /* margin-left: 100px; */
     padding-top: 150px;
 }
 
 .Janine {
     width: 204px;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .luister--capo {
@@ -127,7 +98,7 @@ button {
     padding: 20px;
     width: 164px;
     cursor: pointer;
-    font-size: 18;
+    font-size: 18px;
     font-weight: bolder;
 }
 
@@ -180,10 +151,6 @@ button {
     text-align: center;
 }
 
-.ruimte {
-    margin-top: 50px;
-}
-
 .springcast--button {
     display: block;
     padding: 20px;
@@ -197,16 +164,11 @@ button {
 .springcast {
     color: black;
     background-color: white;
-    /* margin-left: 75px; */
 }
 
 .springcast:hover {
     color: white;
     background-color: black;
-}
-
-.podcast--gasten--img1 {
-    /* margin-left: 130px; */
 }
 
 /*-------------------Presentation and workshop--------------*/
@@ -225,20 +187,8 @@ button {
 
 /*-------------------Presentation--------------*/
 
-.presentation {
-    /* margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    gap: 50px; */
-}
-
-.img--presentation {
-    /* width: 515px; */
-}
-
 .tekst--rood {
     color: red;
-    padding-top: 35px;
     font-size: 21px;
 }
 
@@ -258,16 +208,6 @@ button {
 
 /*-------------------Workshop--------------*/
 
-.workshop {
-    /* display: flex;
-    justify-content: center;
-    gap: 20px; */
-}
-
-.img--workshop {
-    /* width: 505px; */
-}
-
 .tekst--workshop {
     color: white;
     font-size: 21px;
@@ -277,13 +217,6 @@ button {
 
 .over--mij {
     margin-top: 50px;
-    /* display: flex;
-    justify-content: center;
-    gap: 300px; */
-}
-
-.jan-joost-over-img {
-    /* width: 375px; */
 }
 
 .wie--is {
@@ -307,8 +240,8 @@ button {
 /*contact*/
 
 .icons {
-    /* display: flex;
-    justify-content: space-around; */
+    display: flex;
+    justify-content: space-around;
     margin-top: 50px;
 }
 
@@ -318,8 +251,8 @@ button {
 }
 
 .info {
-    /* display: flex;
-    justify-content: space-around; */
+    display: flex;
+    justify-content: space-around;
     color: red;
     font-size: 30px;
 }
@@ -336,15 +269,13 @@ button {
     font-size: 20px;
 }
 
-
-/* Mobiele apparaten (kleiner dan 768px) */
 @media only screen and (max-width: 428px) {
     p {
         text-align: center;
         font-size: 5vw;
     }
 
-    h2{
+    h2 {
         font-size: 10vw;
     }
 
@@ -353,7 +284,7 @@ button {
         height: auto;
     }
 
-    /*-------------------Beader--------------*/
+    /*-------------------Header--------------*/
 
     header {
         position: absolute;
@@ -409,28 +340,306 @@ button {
     }
 
     /*-------------------Over mij--------------*/
-    
+
     .jan-joost-over-img {
         padding-top: 50px;
     }
 
-    .wie--is{
+    .wie--is {
         text-align: center;
     }
 
-        /*-------------------Contact--------------*/
+    /*-------------------Contact--------------*/
 
-        .icons{
-            display: block;
-            margin: auto;
-        }
+    .icons {
+        display: block;
+        margin: auto;
+    }
 }
 
-/* Tablets (768px - 1023px) */
-    @media only screen and (min-width: 768px) and (max-width: 1023px) {}
+@media only screen and (min-width: 429px) and (max-width: 768px) {
 
-    /* Desktops (1024px - 1439px) */
-    @media only screen and (min-width: 1024px) and (max-width: 1439px) {}
 
-    /* Grote schermen (1440px en hoger) */
-    @media only screen and (min-width: 1440px) {}
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    /*-------------------Header--------------*/
+
+    header {
+        display: inline;
+        text-align: center;
+        width: 100%;
+    }
+
+    /*-------------------Boek--------------*/
+
+    .boek {
+        padding-top: 100px;
+    }
+
+    .img--boek {
+        width: 335px;
+    }
+
+    .quote--boek {
+        padding-left: 15px;
+    }
+
+    /*-------------------Van Capo tot Ceo -- podcast--------------*/
+
+    .img--podcast {
+        width: 75%;
+        padding-left: 12px;
+    }
+
+    .podcast {
+        text-align: center;
+    }
+
+    .podcast--gast--tekst {
+        text-align: center;
+    }
+
+    .button--align {
+        margin-left: 282px;
+    }
+
+    /*-------------------Presentation and workshop--------------*/
+
+    /*-------------------Presentation--------------*/
+
+    .presentation {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img--presentation {
+        width: 384px;
+
+    }
+
+    /*-------------------Workshop--------------*/
+
+    .workshop {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img--workshop {
+        width: 384px;
+        height: 300px;
+    }
+
+    /*-------------------Over mij--------------*/
+
+    .jan-joost-over-img {
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .over--mij {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    /*-------------------Header--------------*/
+
+    header {
+        position: fixed;
+    }
+
+
+
+    /*-------------------Boek--------------*/
+
+    .boek {
+        padding-top: 100px;
+    }
+
+    .img--boek {
+        width: 450px;
+        padding-right: 30px;
+    }
+
+    .quote--boek {
+        padding-left: 20px;
+    }
+
+    /*-------------------Van Capo tot Ceo -- podcast--------------*/
+
+    .podcast {
+        margin-top: 50px;
+        display: flex;
+    }
+
+    .img--podcast {
+        width: 45%;
+        padding: 20px;
+        object-fit: contain;
+    }
+
+    .podcast--gast--tekst {
+        text-align: center;
+    }
+
+    .button--align {
+        margin-left: 400px;
+    }
+
+
+    /*-------------------Per Capi--------------*/
+
+    .springcast {
+        margin-left: 55px;
+    }
+
+    /*-------------------Presentation and workshop--------------*/
+
+    .tekst--rood {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 25px;
+    }
+
+    /*-------------------Presentation--------------*/
+
+    .presentation {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img--presentation {
+        width: 475px;
+        padding-left: 25px;
+    }
+
+    /*-------------------Workshop--------------*/
+
+    .workshop {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img--workshop {
+        width: 475px;
+        padding-right: 25px;
+
+    }
+
+    /*-------------------Over mij--------------*/
+
+    .over--mij {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .jan-joost-over-img {
+        width: 45%;
+        object-fit: contain;
+    }
+
+}
+
+@media only screen and (min-width: 1025px) {
+
+    /*-------------------Boek--------------*/
+
+    .boek {
+        padding-top: 100px;
+    }
+
+    .img--boek {
+        width: 500px;
+        padding-right: 50px;
+    }
+
+    .quote--boek {
+        padding-left: 20px;
+    }
+
+    /*-------------------Van Capo tot Ceo -- podcast--------------*/
+
+    .podcast {
+        display: flex;
+        margin-top: 50px;
+        gap: 50px;
+    }
+
+    .img--podcast {
+        padding-left: 75px;
+    }
+
+
+    .podcast--gast {
+        display: flex;
+        gap: 250px;
+    }
+
+    .podcast--gast--tekst {
+        padding-left: 75px;
+    }
+
+    /*-------------------Per Capi--------------*/
+
+    .percapi--gast,
+    .percapi--gast1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .podcast--gasten--img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px;
+    }
+
+    /*----------------------------------Presentatie en workshop----------------------------------*/
+
+    /*-------------------Presentation--------------*/
+    
+.presentation{
+    margin-top: 50px;
+}
+
+    .presentation,
+    .workshop {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+    
+    .tekst--rood,
+    .tekst--workshop {
+        width: 25%;
+        text-align: left;
+    }
+    
+    .img--presentation,
+    .img--workshop {
+        width: 505px;
+    }
+
+    /*-------------------Over mij--------------*/
+    .over--mij{
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+    }
+
+}
