@@ -18,6 +18,27 @@ a{
     font-size: 32px;
 }
 
+/*-------------------video--------------*/
+
+.titel--video{
+    font-size: 30px;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 25px;
+}
+
+.video-video{
+    width: 750px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+video::-webkit-media-controls-panel {
+    display: flex !important;
+    opacity: 1 !important;
+ }
+
 /*-------------------header--------------*/
 
 header {
@@ -144,6 +165,10 @@ button {
     font-size: 25px;
     margin-top: 25px;
     text-align: center;
+}
+
+.img{
+    width: 371px;
 }
 
 .gasten--capi {
