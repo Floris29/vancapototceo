@@ -7,7 +7,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -20,15 +20,14 @@ a{
 
 /*-------------------video--------------*/
 
-.titel--video{
+.titel--video {
     font-size: 30px;
     text-align: center;
     font-weight: lighter;
     margin-top: 25px;
 }
 
-.video-video{
-    width: 750px;
+.video-video {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -37,7 +36,7 @@ a{
 video::-webkit-media-controls-panel {
     display: flex !important;
     opacity: 1 !important;
- }
+}
 
 /*-------------------header--------------*/
 
@@ -110,7 +109,6 @@ nav a {
 
 .janine {
     width: 204px;
-    padding-top: 50px;
 }
 
 .luister--capo {
@@ -165,10 +163,6 @@ button {
     font-size: 25px;
     margin-top: 25px;
     text-align: center;
-}
-
-.img{
-    width: 371px;
 }
 
 .gasten--capi {
@@ -277,9 +271,6 @@ button {
 }
 
 .contact-info {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     padding-top: 50px;
 }
 
@@ -290,7 +281,7 @@ button {
     margin-bottom: 30px;
 }
 
-.info-contact{
+.info-contact {
     color: white;
     font-size: large;
     font-weight: bolder;
@@ -332,6 +323,11 @@ button {
         height: auto;
     }
 
+    video {
+        width: 100%;
+        height: auto;
+    }
+
     /*-------------------Header--------------*/
 
     header {
@@ -364,8 +360,16 @@ button {
         text-align: center;
     }
 
+    .janine {
+        padding-top: 100px;
+    }
+
+    .button--janine {
+        margin-right: 10px;
+    }
+
     .podcast--gast--tekst {
-        padding-top: 50px;
+        padding-top: 70px;
     }
 
     /*-------------------Per Capi--------------*/
@@ -400,9 +404,14 @@ button {
 
     /*-------------------Contact--------------*/
 
-    .icons {
+    .info-contact {
         display: block;
-        margin: auto;
+    }
+
+    .info-item {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
     }
 }
 
@@ -410,6 +419,11 @@ button {
 
     img {
         width: 100%;
+        height: auto;
+    }
+
+    video {
+        width: 500px;
         height: auto;
     }
 
@@ -453,6 +467,17 @@ button {
 
     .button--align {
         margin-left: 282px;
+    }
+
+    /*------------------Per Capi----------------*/
+
+    .img {
+        width: 234px;
+        margin-left: 15px;
+    }
+
+    .spreker--video {
+        text-align: center;
     }
 
     /*-------------------Presentation and workshop--------------*/
@@ -502,12 +527,29 @@ button {
     .over--mij {
         text-align: center;
     }
+
+    /*------------contact-----------*/
+
+    .info-contact {
+        display: block;
+    }
+
+    .info-item {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
 
     img {
         width: 100%;
+        height: auto;
+    }
+
+    video {
+        width: 800px;
         height: auto;
     }
 
@@ -526,6 +568,7 @@ button {
 
     .boek {
         padding-top: 100px;
+        display: flex;
     }
 
     .img--boek {
@@ -547,15 +590,27 @@ button {
     .img--podcast {
         width: 45%;
         padding: 20px;
-        object-fit: contain;
+        object-fit: contain;;
     }
 
     .podcast--gast--tekst {
         text-align: center;
     }
 
+    .podcast--gast {
+        margin-top: 50px;
+    }
+
     .button--align {
         margin-left: 400px;
+    }
+
+    .janine {
+        padding-top: 50px;
+    }
+
+    .button--janine {
+        margin-right: 234px;
     }
 
     /*-------------------Per Capi--------------*/
@@ -564,14 +619,28 @@ button {
         margin-left: 55px;
     }
 
+    .phone-ipad-laptop {
+        display: none;
+    }
+
+    .img {
+        width: 338px;
+        margin-left: 2px;
+    }
+
     /*-------------------Presentation and workshop--------------*/
 
     /*-------------------Presentation--------------*/
 
-    .presentation {
+    .presentation,
+    .workshop {
         margin-top: 50px;
         display: flex;
         justify-content: center;
+    }
+
+    .titel--presentation, .titel--workshop{
+        padding-top: 75px
     }
 
     .img--presentation,
@@ -580,20 +649,14 @@ button {
         padding-left: 25px;
     }
 
-    .phone-ipad-laptop {
-        display: none;
-    }
 
     .percapi--gast--img {
         display: flex;
         text-align: center;
     }
 
-    /*-------------------Workshop--------------*/
-
-    .workshop {
-        display: flex;
-        justify-content: center;
+    .spreker--video {
+        text-align: center;
     }
 
     /*-------------------Over mij--------------*/
@@ -608,9 +671,23 @@ button {
         object-fit: contain;
     }
 
+    /*------------contact-----------*/
+
+    .contact-info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
 }
 
 @media only screen and (min-width: 1025px) {
+
+    /*-----------------video---------*/
+
+    .video-video {
+        width: 750px;
+    }
 
     /*------------------Header--------------*/
 
@@ -661,6 +738,10 @@ button {
         padding-top: 150px;
     }
 
+    .janine {
+        padding-top: 50px;
+    }
+
     /*-------------------Per Capi--------------*/
 
     .per-capi {
@@ -671,6 +752,10 @@ button {
     .phone-ipad-laptop {
         display: flex;
         justify-content: space-around;
+    }
+
+    .img {
+        width: 371px;
     }
 
     /*----------------------------------Presentatie en workshop----------------------------------*/
@@ -716,6 +801,18 @@ button {
 
     .pc {
         display: none;
+    }
+
+    .spreker--video{
+        text-align: center;
+    }
+
+    /*------------------contact---------------*/
+
+    .contact-info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     /*-------------------Over mij--------------*/
