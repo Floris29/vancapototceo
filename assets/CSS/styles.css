@@ -4,8 +4,18 @@
 }
 
 body {
-    background-color: black;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.titel {
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 32px;
 }
 
 /*-------------------header--------------*/
@@ -16,6 +26,7 @@ header {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    background-color: #AE092A;
 }
 
 nav a {
@@ -23,14 +34,16 @@ nav a {
     font-size: 22px;
     font-weight: bolder;
     padding: 10px;
-    text-decoration: none;
 }
 
 /*-------------------boek--------------*/
+
+#boek {
+    background-color: white;
+}
+
 .boek {
-    display: flex;
     align-items: center;
-    justify-content: space-around;
 }
 
 .quote--boek {
@@ -44,19 +57,24 @@ nav a {
     font-size: 22px;
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 /*-------------------podcast--------------*/
 
 /* Van Capo tot ceo -- podcast*/
 
-.podcast {
-    color: red;
-    font-size: 25px;
+#podcast {
+    background-color: #AE092A;
 }
 
-.quote--podcast {
-    font-weight: bolder;
+.podcast {
+    color: white;
+    font-size: 22px;
+}
+
+.podcast-info {
+    padding-top: 100px;
 }
 
 .name--quote {
@@ -65,18 +83,17 @@ nav a {
 }
 
 .podcast--gast--tekst {
-    color: red;
+    color: white;
     font-size: 23px;
-    padding-top: 150px;
 }
 
-.Janine {
+.janine {
     width: 204px;
     padding-top: 50px;
 }
 
 .luister--capo {
-    color: red;
+    color: white;
     font-size: 30px;
     font-weight: bolder;
 }
@@ -88,7 +105,7 @@ button {
     background: none;
 }
 
-.button--Janine {
+.button--janine {
     display: inline-block;
     padding: 20px;
     width: 164px;
@@ -97,27 +114,23 @@ button {
     font-weight: bolder;
 }
 
-.soundcloud {
-    background-color: white;
-    color: black;
-}
-
+.soundcloud,
 .spotify {
     background-color: white;
-    color: black;
+    color: #AE092A;
 }
 
-.soundcloud:hover {
-    background-color: black;
-    color: white;
-}
-
+.soundcloud:hover,
 .spotify:hover {
-    background-color: black;
+    background-color: #AE092A;
     color: white;
 }
 
 /*-------------------Per Capi--------------*/
+
+#per-capi {
+    background-color: white;
+}
 
 .per-capi-img {
     display: block;
@@ -136,7 +149,7 @@ button {
 .gasten--capi {
     text-align: center;
     margin-top: 100px;
-    color: white;
+    color: red;
     font-weight: bolder;
     font-size: 35px;
 }
@@ -144,6 +157,8 @@ button {
 .subtitle--podcast {
     color: red;
     text-align: center;
+    font-weight: bold;
+    margin-bottom: 25px;
 }
 
 .springcast--button {
@@ -152,66 +167,60 @@ button {
     width: 150px;
     cursor: pointer;
     font-size: 15px;
-    text-decoration: none;
     font-weight: bolder;
+    margin-bottom: 25px;
 }
 
 .springcast {
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: #AE092A;
 }
 
 .springcast:hover {
-    color: white;
-    background-color: black;
+    color: #AE092A;
+    background-color: white;
 }
 
 /*-------------------Presentation and workshop--------------*/
 
-.titel--pw {
-    text-align: center;
-    color: red;
-    font-size: 48px;
+#presentation--workshop {
+    background-color: #AE092A;
 }
 
 .begin--pw {
     text-align: center;
-    color: red;
+    color: white;
     font-size: 22px;
 }
 
-/*-------------------Presentation--------------*/
-
-.tekst--rood {
-    color: red;
-    font-size: 21px;
-}
-
-.tekst--presentatie {
+.click {
     color: white;
 }
 
-.click {
-    color: red;
-    text-decoration: none;
-}
-
-.tekst--groter {
+.titel--presentation,
+.titel--workshop {
+    color: white;
     font-size: 24px;
     font-weight: bold;
 }
 
-/*-------------------Workshop--------------*/
+.sub--presentatio,
+.subtitle--workshop {
+    font-size: 21px;
+    font-style: italic;
+}
 
+.tekst--presentatie,
 .tekst--workshop {
     color: white;
-    font-size: 21px;
+    font-size: 20px;
+    font-weight: lighter;
 }
 
 /*-------------------Over mij--------------*/
 
-.over--mij {
-    margin-top: 50px;
+#over {
+    background-color: white;
 }
 
 .wie--is {
@@ -221,41 +230,65 @@ button {
 }
 
 .dikgedrukt--over {
-    color: white;
+    color: red;
     font-weight: bolder;
     font-size: 25px;
 }
 
 .ik-ben {
-    color: white;
+    color: red;
     font-size: 21px;
     display: inline;
 }
 
 /*contact*/
 
-.icons {
-    display: flex;
-    justify-content: space-around;
+#contact {
+    background-color: #AE092A;
+}
+
+.contact {
     margin-top: 50px;
 }
 
-.icons {
-    color: white;
-    font-size: 65px;
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
 }
 
-.info {
+.info-item {
+    flex: 0 0 25%;
+    max-width: 25%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.info-contact{
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: white;
     display: flex;
-    justify-content: space-around;
-    color: red;
-    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #AE092A;
 }
 
 /* Footer */
 
 .copyright {
-    background-color: red;
+    background-color: white;
     color: black;
     font-weight: bolder;
     text-align: center;
@@ -267,11 +300,6 @@ button {
 @media only screen and (max-width: 428px) {
     p {
         text-align: center;
-        font-size: 5vw;
-    }
-
-    h2 {
-        font-size: 10vw;
     }
 
     img {
@@ -298,7 +326,6 @@ button {
     /*-------------------Boek--------------*/
 
     .boek {
-        display: block;
         padding-top: 200px;
     }
 
@@ -312,17 +339,11 @@ button {
         text-align: center;
     }
 
-    /*-------------------Per Capi--------------*/
-
-    table,
-    thead,
-    tbody,
-    th,
-    td,
-    tr {
-        display: block;
-        text-align: center;
+    .podcast--gast--tekst {
+        padding-top: 50px;
     }
+
+    /*-------------------Per Capi--------------*/
 
     .springcast--button {
         margin: auto;
@@ -332,6 +353,14 @@ button {
 
     .img--workshop {
         padding-top: 50px;
+    }
+
+    .phone-ipad-laptop {
+        display: none;
+    }
+
+    .pc {
+        text-align: center;
     }
 
     /*-------------------Over mij--------------*/
@@ -354,8 +383,6 @@ button {
 
 @media only screen and (min-width: 429px) and (max-width: 768px) {
 
-
-
     img {
         width: 100%;
         height: auto;
@@ -377,6 +404,7 @@ button {
 
     .img--boek {
         width: 335px;
+        display: flex;
     }
 
     .quote--boek {
@@ -414,7 +442,15 @@ button {
 
     .img--presentation {
         width: 384px;
+    }
 
+    .phone-ipad-laptop {
+        display: none;
+    }
+
+    .percapi--gast--img {
+        display: flex;
+        text-align: center;
     }
 
     /*-------------------Workshop--------------*/
@@ -497,7 +533,6 @@ button {
         margin-left: 400px;
     }
 
-
     /*-------------------Per Capi--------------*/
 
     .springcast {
@@ -505,12 +540,6 @@ button {
     }
 
     /*-------------------Presentation and workshop--------------*/
-
-    .tekst--rood {
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-top: 25px;
-    }
 
     /*-------------------Presentation--------------*/
 
@@ -520,9 +549,19 @@ button {
         justify-content: center;
     }
 
-    .img--presentation {
+    .img--presentation,
+    .img--workshop {
         width: 475px;
         padding-left: 25px;
+    }
+
+    .phone-ipad-laptop {
+        display: none;
+    }
+
+    .percapi--gast--img {
+        display: flex;
+        text-align: center;
     }
 
     /*-------------------Workshop--------------*/
@@ -530,12 +569,6 @@ button {
     .workshop {
         display: flex;
         justify-content: center;
-    }
-
-    .img--workshop {
-        width: 475px;
-        padding-right: 25px;
-
     }
 
     /*-------------------Over mij--------------*/
@@ -565,6 +598,7 @@ button {
 
     .boek {
         padding-top: 100px;
+        display: flex;
     }
 
     .img--boek {
@@ -576,75 +610,103 @@ button {
         padding-left: 20px;
     }
 
+    .boek-info {
+        white-space: pre-line;
+    }
+
     /*-------------------Van Capo tot Ceo -- podcast--------------*/
 
     .podcast {
         display: flex;
         margin-top: 50px;
         gap: 50px;
+        white-space: pre-line;
     }
 
     .img--podcast {
         padding-left: 75px;
     }
 
-
     .podcast--gast {
         display: flex;
-        gap: 250px;
     }
 
     .podcast--gast--tekst {
         padding-left: 75px;
+        padding-top: 150px;
     }
 
     /*-------------------Per Capi--------------*/
 
-    .percapi--gast,
-    .percapi--gast1 {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
+    .per-capi {
+        white-space: pre-line;
     }
 
-    .podcast--gasten--img {
+    .percapi--gast--img,
+    .phone-ipad-laptop {
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 50px;
+        justify-content: space-around;
     }
 
     /*----------------------------------Presentatie en workshop----------------------------------*/
 
+    .begin--pw {
+        white-space: pre-line;
+    }
+
     /*-------------------Presentation--------------*/
-    
-.presentation{
-    margin-top: 50px;
-}
+
+    .presentation {
+        margin-top: 50px;
+        margin-left: 100px;
+    }
 
     .presentation,
     .workshop {
         display: flex;
         justify-content: center;
-        gap: 50px;
+        gap: 25px;
     }
-    
-    .tekst--rood,
+
+    .workshop {
+        flex-direction: row-reverse;
+    }
+
+    .titel--presentation,
+    .tekst--presentatie,
+    .titel--workshop,
     .tekst--workshop {
-        width: 25%;
+        white-space: pre-line;
+    }
+
+    .tekst--workshop {
         text-align: left;
     }
-    
+
     .img--presentation,
     .img--workshop {
         width: 505px;
+        height: 340px;
+    }
+
+    .pc {
+        display: none;
     }
 
     /*-------------------Over mij--------------*/
-    .over--mij{
+    .over--mij {
         display: flex;
         justify-content: center;
         gap: 100px;
+    }
+
+    .jan-joost-over-img {
+        width: auto;
+        height: 375px;
+    }
+
+    .ik-ben {
+        white-space: pre-line;
     }
 
 }
