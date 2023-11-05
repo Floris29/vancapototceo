@@ -27,15 +27,9 @@ a {
     margin-top: 25px;
 }
 
-.video-video {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 video::-webkit-media-controls-panel {
-    display: flex !important;
-    opacity: 1 !important;
+    display: flex;
+    opacity: 1;
 }
 
 /*-------------------header--------------*/
@@ -153,8 +147,7 @@ button {
 
 .per-capi-img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     margin-top: 50px;
 }
 
@@ -276,7 +269,7 @@ button {
 
 .info-item {
     flex: 0 0 25%;
-    max-width: 25%;
+    /* max-width: 25%; */
     text-align: center;
     margin-bottom: 30px;
 }
@@ -303,8 +296,8 @@ button {
 
 /* Footer */
 
-.copyright {
-    background-color: white;
+.copyright,
+.floris-codes {
     color: black;
     font-weight: bolder;
     text-align: center;
@@ -362,10 +355,11 @@ button {
 
     .janine {
         padding-top: 100px;
+        padding-right: 13px;
     }
 
     .button--janine {
-        margin-right: 10px;
+        margin-right: 14px;
     }
 
     .podcast--gast--tekst {
@@ -404,15 +398,11 @@ button {
 
     /*-------------------Contact--------------*/
 
-    .info-contact {
-        display: block;
-    }
-
     .info-item {
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
         text-align: center;
     }
+
 }
 
 @media only screen and (min-width: 429px) and (max-width: 768px) {
@@ -425,6 +415,8 @@ button {
     video {
         width: 500px;
         height: auto;
+        display: block;
+        margin: 0 auto;
     }
 
     /*-------------------Header--------------*/
@@ -472,8 +464,7 @@ button {
     /*------------------Per Capi----------------*/
 
     .img {
-        width: 234px;
-        margin-left: 15px;
+        width: 100%;
     }
 
     .spreker--video {
@@ -484,14 +475,17 @@ button {
 
     /*-------------------Presentation--------------*/
 
-    .presentation {
+    .presentation,
+    .workshop {
         margin-top: 50px;
         display: flex;
         justify-content: center;
     }
 
-    .img--presentation {
+    .img--presentation,
+    .img--workshop {
         width: 384px;
+        height: 300px;
     }
 
     .phone-ipad-laptop {
@@ -503,25 +497,12 @@ button {
         text-align: center;
     }
 
-    /*-------------------Workshop--------------*/
-
-    .workshop {
-        display: flex;
-        justify-content: center;
-    }
-
-    .img--workshop {
-        width: 384px;
-        height: 300px;
-    }
-
     /*-------------------Over mij--------------*/
 
     .jan-joost-over-img {
         width: 50%;
         display: block;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
     }
 
     .over--mij {
@@ -535,8 +516,7 @@ button {
     }
 
     .info-item {
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
         text-align: center;
     }
 }
@@ -549,8 +529,10 @@ button {
     }
 
     video {
-        width: 800px;
+        width: 75%;
         height: auto;
+        display: block;
+        margin: 0 auto;
     }
 
     /*-------------------Header--------------*/
@@ -590,7 +572,7 @@ button {
     .img--podcast {
         width: 45%;
         padding: 20px;
-        object-fit: contain;;
+        object-fit: contain;
     }
 
     .podcast--gast--tekst {
@@ -624,8 +606,9 @@ button {
     }
 
     .img {
-        width: 338px;
+        width: 100%;
         margin-left: 2px;
+        height: 263px;
     }
 
     /*-------------------Presentation and workshop--------------*/
@@ -639,13 +622,10 @@ button {
         justify-content: center;
     }
 
-    .titel--presentation, .titel--workshop{
-        padding-top: 75px
-    }
-
     .img--presentation,
     .img--workshop {
         width: 475px;
+        height: 340px;
         padding-left: 25px;
     }
 
@@ -685,8 +665,14 @@ button {
 
     /*-----------------video---------*/
 
+    video {
+        width: 50%;
+        text-align: center;
+    }
+
     .video-video {
-        width: 750px;
+        display: block;
+        margin: 0 auto;
     }
 
     /*------------------Header--------------*/
@@ -755,7 +741,7 @@ button {
     }
 
     .img {
-        width: 371px;
+        width: 355px;
     }
 
     /*----------------------------------Presentatie en workshop----------------------------------*/
@@ -803,7 +789,7 @@ button {
         display: none;
     }
 
-    .spreker--video{
+    .spreker--video {
         text-align: center;
     }
 
