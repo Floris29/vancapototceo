@@ -13,7 +13,7 @@ a {
 }
 
 .titel {
-    color: white;
+    color: black;
     font-weight: bolder;
     text-align: center;
     font-size: 32px;
@@ -38,14 +38,14 @@ header {
     justify-content: space-between;
     width: 100%;
     background-color: #AE092A;
-    padding: 10px 13px;
+    padding: 15px 15px;
 }
 
 nav a {
     color: white;
     font-size: 22px;
     font-weight: bolder;
-    padding: 0 10px;
+    padding: 0 12px;
 }
 
 nav a:hover {
@@ -98,44 +98,12 @@ nav a:hover {
     font-weight: bolder;
 }
 
-.podcast--gast--tekst {
-    color: white;
-    font-size: 23px;
+.check-hier {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
 }
-
-.janine {
-    width: 204px;
-}
-
-.luister--capo {
-    color: white;
-    font-size: 30px;
-    font-weight: bolder;
-}
-
-/* buttons van janine
-
-.button--janine {
-    display: inline-block;
-    padding: 20px 50px;
-    /* width: 164px; 
-    cursor: pointer;
-    font-size: 18px;
-    font-weight: bolder;
-    text-align: center;
-}
-
-.soundcloud,
-.spotify {
-    background-color: white;
-    color: #AE092A;
-}
-
-.soundcloud:hover,
-.spotify:hover {
-    background-color: #AE092A;
-    color: white;
-} */
 
 /*-------------------Per Capi--------------*/
 

@@ -85,32 +85,13 @@
                     "normale bedrijven kunnen daadwerkelijk kan leren van de dingen die de Italiaanse maffia ook doet,
                     Want als je alle criminele aspecten van de maffia buiten beschouwing laat (want die hebben ze natuurlijk,
                     en die zijn verwerpelijk), doen ze ook dingen best wel goed, slim en handig."
+                    <br>
                     <span class="name--quote">- Jan-Joost Kroon</span>
+                    <br>
+                    <br>
+                    <a href="https://open.spotify.com/show/6IeX8u975iSS9jNHLwblC0?si=97099beec3014722" target="_blank" class="check-hier">Check de podcast hier</a>
                 </p>
             </div>
-
-            <!-- <div class="podcast--gast">
-
-                <p class="podcast--gast--tekst">
-                    De podcast 'Van Capo tot CEO' heeft 1 gast, Janine Zoer: Janine is expert op het gebied van de
-                    veranderpsychologie van C.G. Jung. Inmiddels heeft zij veel ervaring met het creëren van draagvlak
-                    en bewustwording bij organisatieveranderingen. Zij helpt bedrijven te groeien met behoud van de
-                    juiste mensen. Dit doet zij o.a. op basis van haar archetypische kennis. In essentie is zij een
-                    analytische vernieuwer.
-                </p>
-
-                <div class="button--align">
-                    <img class="janine" src="assets/IMG/janine.jpeg" alt="Janine Zoer">
-
-                    <a href="https://on.soundcloud.com/ER83Y" target="_blank"
-                            class="button--janine soundcloud">Soundcloud</a>
-
-                    <a href="https://open.spotify.com/show/6IeX8u975iSS9jNHLwblC0?si=97099beec3014722"
-                            target="_blank" class="button--janine spotify">Spotify</a>
-                </div>
-
-
-            </div> -->
         </section>
 
         <!-- Podcast Per Capi -->
@@ -311,6 +292,12 @@
             <div class="spreker--video">
                 <video src="assets/video/spreker.mp4" class="video--spreker" controls></video>
             </div>
+
+        </section>
+
+        <!---Nieuws--->
+
+        <section>
 
         </section>
 
