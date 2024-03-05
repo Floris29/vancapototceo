@@ -202,6 +202,15 @@ nav a:hover {
     background-color: white;
 }
 
+.nieuws-item {
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
 /*-------------------Over mij--------------*/
 
 #over {
