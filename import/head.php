@@ -9,4 +9,5 @@
     <script src="https://kit.fontawesome.com/aab1cdc4fa.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/x-icon" href="assets/IMG/favicon.ico">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 </head>

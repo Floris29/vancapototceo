@@ -11,7 +11,7 @@
         <section id="boek">
             <div class="boek">
                 <!-- Ff checken hoe je hem leest, en een knop plaatsen naar de website van de podcast zelf -->
-                <p class="quote--boek"> 
+                <p class="quote--boek">
                     Auteur Jan-Joost Kroon is al meer dan 25 jaar gefascineerd door de Italiaanse maffia.
                     Vanuit zijn bedrijfskundige achtergrond en werk als organisatieadviseur ziet hij dat ‘normale’
                     bedrijven wel
@@ -277,7 +277,80 @@
 
         <!---Nieuws--->
 
-        <section>
+        <section id="nieuws">
+
+            <h2 class="titel">Nieuws</h2>
+
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="nieuws-item">
+                            <img src="assets/IMG/.jpg" alt="" class="nieuws-img">
+                            <h1 class="titel-nieuws">Item</h1>
+                            <p class="nieuws-tekst">
+                                tekst
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="nieuws-item">
+                            <img src="assets/IMG/.jpg" alt="" class="nieuws-img">
+                            <h1 class="titel-nieuws">Item</h1>
+                            <p class="nieuws-tekst">
+                                tekst
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="nieuws-item">
+                            <img src="assets/IMG/.jpg" alt="" class="nieuws-img">
+                            <h1 class="titel-nieuws">Item</h1>
+                            <p class="nieuws-tekst">
+                                tekst
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="nieuws-item">
+                            <img src="assets/IMG/.jpg" alt="" class="nieuws-img">
+                            <h1 class="titel-nieuws">Item</h1>
+                            <p class="nieuws-tekst">
+                                tekst
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="nieuws-item">
+                            <img src="assets/IMG/.jpg" alt="" class="nieuws-img">
+                            <h1 class="titel-nieuws">Item</h1>
+                            <p class="nieuws-tekst">
+                                tekst
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="nieuws-item">
+                            <img src="assets/IMG/.jpg" alt="" class="nieuws-img">
+                            <h1 class="titel-nieuws">Item</h1>
+                            <p class="nieuws-tekst">
+                                tekst
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <div class="swiper-scrollbar"></div>
+            </div>
 
         </section>
 
@@ -335,7 +408,7 @@
             </div>
 
             <form action="../vancapototceo/handeling/form.php" method="post">
-                <h3>Contacteer Mij</h3>
+                <h2 class="titel">Contacteer Mij</h2>
                 <div class="form-group">
                     <label class="label" for="name">Naam</label>
                     <input type="text" class="form-control" name="name" id="name" placeholder="Naam" required>
@@ -365,5 +438,26 @@
     <?php include 'import/footer.php'; ?>
 
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+    const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+</script>
 
 </html>
