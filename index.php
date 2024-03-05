@@ -1,29 +1,9 @@
-<!DOCTYPE html>
-<html lang="nl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Van Capo tot Ceo</title>
-    <link rel="stylesheet" href="assets/CSS/styles.css">
-    <script src="https://kit.fontawesome.com/aab1cdc4fa.js" crossorigin="anonymous"></script>
-    <link rel="icon" type="image/x-icon" href="assets/IMG/favicon.ico">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+<?php include 'import/head.php'; ?>
 
 <body>
     <!--Header en Navigation-->
 
-    <header>
-        <h1 class="header--name">Van Capo tot CEO</h1>
-        <nav>
-            <a href="#book">Boek</a>
-            <a href="#podcast">Podcasts</a>
-            <a href="#presentation--workshop">Presentatie en Workshop</a>
-            <a href="#over">Over mij</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+    <?php include 'import/header.php'; ?>
 
     <!--Boek en quote-->
 
@@ -31,7 +11,7 @@
         <section id="boek">
             <div class="boek">
                 <!-- Ff checken hoe je hem leest, en een knop plaatsen naar de website van de podcast zelf -->
-                <p class="quote--boek">
+                <p class="quote--boek"> 
                     Auteur Jan-Joost Kroon is al meer dan 25 jaar gefascineerd door de Italiaanse maffia.
                     Vanuit zijn bedrijfskundige achtergrond en werk als organisatieadviseur ziet hij dat ‘normale’
                     bedrijven wel
@@ -381,12 +361,9 @@
     </main>
 
     <!--Footer-->
-    <footer>
-        <section id="footer" class="footer">
-            <span class="copyright">© 2024, Van Capo tot Ceo</span>
-            <span class="floris-codes">Terug naar <a href="https://floriscodes.nl">FlorisCodes</a></span>
-        </section>
-    </footer>
+
+    <?php include 'import/footer.php'; ?>
+
 </body>
 
 </html>
