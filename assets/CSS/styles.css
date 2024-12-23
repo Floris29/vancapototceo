@@ -196,41 +196,26 @@ nav a:hover {
     font-weight: lighter;
 }
 
-/*-------------------Nieuws--------------*/
-
-#nieuws {
-    background-color: white;
-}
-
-.nieuws-item {
-    height: 1000px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 0;
-}
-
 /*-------------------Over mij--------------*/
 
 #over {
-    background-color: #AE092A;
+    background-color: white;
 }
 
 .wie--is {
-    color: white;
+    color: red;
     font-weight: bolder;
     font-size: 30px;
 }
 
 .dikgedrukt--over {
-    color: white;
+    color: red;
     font-weight: bolder;
     font-size: 25px;
 }
 
 .ik-ben {
-    color: white;
+    color: red;
     font-size: 21px;
     display: inline;
 }

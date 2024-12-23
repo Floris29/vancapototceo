@@ -56,20 +56,25 @@
                     Jan-Joost koestert al lange tijd een diepe fascinatie voor de wereld van de Italiaanse maffia,
                     daarom nam hij in mei 2020 het besluit om deze passie te delen door middel van zijn eigen podcast.
                     In deze meeslepende serie praat hij met Janine Zoer, een expert op veranderpsychologie.
-                    Jan-Joost neemt haar mee op een intrigerende reis door het mysterieuze rijk van de Italiaanse maffia,
-                    waar hij gedetailleerd ingaat op hun tactieken en strategieën. Hierbij laat hij geen een onderwerp liggen,
-                    en bespreekt hij openhartig de verschillen en overeenkomsten tussen de werkwijzen van de Italiaanse maffia
+                    Jan-Joost neemt haar mee op een intrigerende reis door het mysterieuze rijk van de Italiaanse
+                    maffia,
+                    waar hij gedetailleerd ingaat op hun tactieken en strategieën. Hierbij laat hij geen een onderwerp
+                    liggen,
+                    en bespreekt hij openhartig de verschillen en overeenkomsten tussen de werkwijzen van de Italiaanse
+                    maffia
                     en Nederlandse bedrijven.
                     <br>
                     <br>
                     "normale bedrijven kunnen daadwerkelijk kan leren van de dingen die de Italiaanse maffia ook doet,
-                    Want als je alle criminele aspecten van de maffia buiten beschouwing laat (want die hebben ze natuurlijk,
+                    Want als je alle criminele aspecten van de maffia buiten beschouwing laat (want die hebben ze
+                    natuurlijk,
                     en die zijn verwerpelijk), doen ze ook dingen best wel goed, slim en handig."
                     <br>
                     <span class="name--quote">- Jan-Joost Kroon</span>
                     <br>
                     <br>
-                    <a href="https://open.spotify.com/show/6IeX8u975iSS9jNHLwblC0?si=97099beec3014722" target="_blank" class="check-hier">Check de podcast hier</a>
+                    <a href="https://open.spotify.com/show/6IeX8u975iSS9jNHLwblC0?si=97099beec3014722" target="_blank"
+                        class="check-hier">Check de podcast hier</a>
                 </p>
             </div>
         </section>
@@ -100,11 +105,11 @@
             </p>
 
             <div class="percapi--gast--img">
-
                 <div>
                     <img src="assets/IMG/nick.png" alt="Nick van der Dussen" class="img">
                     <div class="pc">
-                        <a href="https://app.springcast.fm/18520/il-capitano-nick-van-der-dussen" class="springcast--button springcast" target="_blank">Nick van der
+                        <a href="https://app.springcast.fm/18520/il-capitano-nick-van-der-dussen"
+                            class="springcast--button springcast" target="_blank">Nick van der
                             Dussen</a>
                     </div>
                 </div>
@@ -112,7 +117,8 @@
                 <div>
                     <img src="assets/IMG/richard.png" alt="Richard-van-Kray" class="img">
                     <div class="pc">
-                        <a href="https://app.springcast.fm/18520/il-capitano-richard-van-kray" target="_blank" class="springcast--button springcast">Richard van
+                        <a href="https://app.springcast.fm/18520/il-capitano-richard-van-kray" target="_blank"
+                            class="springcast--button springcast">Richard van
                             Kray</a>
                     </div>
                 </div>
@@ -120,7 +126,8 @@
                 <div>
                     <img src="assets/IMG/michel.png" alt="Michel-Uyen" class="img">
                     <div class="pc">
-                        <a href="https://app.springcast.fm/18520/il-capitano-michel-uyen" target="_blank" class="springcast--button springcast">Michel
+                        <a href="https://app.springcast.fm/18520/il-capitano-michel-uyen" target="_blank"
+                            class="springcast--button springcast">Michel
                             Uygen</a>
                     </div>
                 </div>
@@ -128,13 +135,16 @@
 
 
             <div class="phone-ipad-laptop">
-                <a href="https://app.springcast.fm/18520/il-capitano-nick-van-der-dussen" class="springcast--button springcast" target="_blank">Nick van der
+                <a href="https://app.springcast.fm/18520/il-capitano-nick-van-der-dussen"
+                    class="springcast--button springcast" target="_blank">Nick van der
                     Dussen</a>
 
-                <a href="https://app.springcast.fm/18520/il-capitano-richard-van-kray" target="_blank" class="springcast--button springcast">Richard van
+                <a href="https://app.springcast.fm/18520/il-capitano-richard-van-kray" target="_blank"
+                    class="springcast--button springcast">Richard van
                     Kray</a>
 
-                <a href="https://app.springcast.fm/18520/il-capitano-michel-uyen" target="_blank" class="springcast--button springcast">Michel
+                <a href="https://app.springcast.fm/18520/il-capitano-michel-uyen" target="_blank"
+                    class="springcast--button springcast">Michel
                     Uygen</a>
             </div>
 
@@ -144,7 +154,8 @@
                 <div>
                     <img src="assets/IMG/leonie.png" alt="Leonie-Melchers" class="img">
                     <div class="pc">
-                        <a href="https://app.springcast.fm/18520/il-capitano-leonie-melchers" target="_blank" class="springcast--button springcast">Leonie
+                        <a href="https://app.springcast.fm/18520/il-capitano-leonie-melchers" target="_blank"
+                            class="springcast--button springcast">Leonie
                             Melchers</a>
                     </div>
                 </div>
@@ -152,7 +163,8 @@
                 <div>
                     <img src="assets/IMG/marcel.png" alt="marcel" class="img">
                     <div class="pc">
-                        <a href="https://app.springcast.fm/18520/il-capitano-marcel-van-loon" target="_blank" class="springcast--button springcast">Marcel van
+                        <a href="https://app.springcast.fm/18520/il-capitano-marcel-van-loon" target="_blank"
+                            class="springcast--button springcast">Marcel van
                             Loon</a>
                     </div>
                 </div>
@@ -160,20 +172,24 @@
                 <div>
                     <img src="assets/IMG/roy.png" alt="Roy-de-Bruijn" class="img">
                     <div class="pc">
-                        <a href="https://app.springcast.fm/18520/il-capitano-roy-de-bruijn" target="_blank" class="springcast--button springcast">Roy de
+                        <a href="https://app.springcast.fm/18520/il-capitano-roy-de-bruijn" target="_blank"
+                            class="springcast--button springcast">Roy de
                             Bruijn</a>
                     </div>
                 </div>
             </div>
 
             <div class="phone-ipad-laptop">
-                <a href="https://app.springcast.fm/18520/il-capitano-leonie-melchers" target="_blank" class="springcast--button springcast">Leonie
+                <a href="https://app.springcast.fm/18520/il-capitano-leonie-melchers" target="_blank"
+                    class="springcast--button springcast">Leonie
                     Melchers</a>
 
-                <a href="https://app.springcast.fm/18520/il-capitano-marcel-van-loon" target="_blank" class="springcast--button springcast">Marcel van
+                <a href="https://app.springcast.fm/18520/il-capitano-marcel-van-loon" target="_blank"
+                    class="springcast--button springcast">Marcel van
                     Loon</a>
 
-                <a href="https://app.springcast.fm/18520/il-capitano-roy-de-bruijn" target="_blank" class="springcast--button springcast">Roy de
+                <a href="https://app.springcast.fm/18520/il-capitano-roy-de-bruijn" target="_blank"
+                    class="springcast--button springcast">Roy de
                     Bruijn</a>
             </div>
 
@@ -182,7 +198,8 @@
                 <div>
                     <img src="assets/IMG/eric.png" alt="Eric Bolhaar" class="img">
                     <div class="pc">
-                        <a href="https://app.springcast.fm/18520/il-capitano-eric-bolhaar" target="_blank" class="springcast--button springcast">Eric
+                        <a href="https://app.springcast.fm/18520/il-capitano-eric-bolhaar" target="_blank"
+                            class="springcast--button springcast">Eric
                             Bolhaar</a>
                     </div>
                 </div>
@@ -190,7 +207,8 @@
                 <div>
                     <img src="assets/IMG/jeroen.png" alt="Jeroen de Jong" class="img">
                     <div class="pc">
-                        <a href="https://app.springcast.fm/18520/il-capitano-jeroen-de-jong" target="_blank" class="springcast--button springcast">Jeroen de Jong</a>
+                        <a href="https://app.springcast.fm/18520/il-capitano-jeroen-de-jong" target="_blank"
+                            class="springcast--button springcast">Jeroen de Jong</a>
                     </div>
                 </div>
 
@@ -205,10 +223,12 @@
             </div>
 
             <div class="phone-ipad-laptop">
-                <a href="https://app.springcast.fm/18520/il-capitano-eric-bolhaar" target="_blank" class="springcast--button springcast">Eric
+                <a href="https://app.springcast.fm/18520/il-capitano-eric-bolhaar" target="_blank"
+                    class="springcast--button springcast">Eric
                     Bolhaar</a>
 
-                <a href="https://app.springcast.fm/18520/il-capitano-jeroen-de-jong" target="_blank" class="springcast--button springcast">Jeroen de Jong</a>
+                <a href="https://app.springcast.fm/18520/il-capitano-jeroen-de-jong" target="_blank"
+                    class="springcast--button springcast">Jeroen de Jong</a>
 
                 <!-- <a href="https://app.springcast.fm/18520/il-capitano-roy-de-bruijn" target="_blank"
                         class="springcast--button springcast">Roy de
@@ -243,7 +263,8 @@
                         Zijn verhaal is op alle fronten anders en vernieuwend.
                         Kijk, luister en leer vanuit een heel ander perspectief en laat je verrassen.
 
-                        De mogenlijkheden bespreken? <a class="click" href="https://www.janjoostkroon.nl/" target="_blank">Klik hier</a>
+                        De mogenlijkheden bespreken? <a class="click" href="https://www.janjoostkroon.nl/"
+                            target="_blank">Klik hier</a>
                     </span>
                 </p>
             </div>
@@ -260,7 +281,8 @@
                         uit een heel ander perspectief? Vraag Jan-Joost voor zijn
                         input voor een geslaagde en verfrissende workshop.
 
-                        De mogenlijkheden bespreken? <a class="click" href="https://www.janjoostkroon.nl/" target="_blank">Klik hier</a>
+                        De mogenlijkheden bespreken? <a class="click" href="https://www.janjoostkroon.nl/"
+                            target="_blank">Klik hier</a>
                     </span>
                 </p>
             </div>
@@ -271,85 +293,6 @@
 
             <div class="spreker--video">
                 <video src="assets/video/spreker.mp4" class="video--spreker" controls></video>
-            </div>
-
-        </section>
-
-        <!---Nieuws--->
-
-        <section id="nieuws">
-
-            <h2 class="titel">Nieuws</h2>
-
-            <div class="swiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="nieuws-item">
-                            <img src="assets/IMG/.jpg" alt="" class="nieuws-img">
-                            <h1 class="titel-nieuws">Item</h1>
-                            <p class="nieuws-tekst">
-                                tekst
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="nieuws-item">
-                            <img src="assets/IMG/.jpg" alt="" class="nieuws-img">
-                            <h1 class="titel-nieuws">Item</h1>
-                            <p class="nieuws-tekst">
-                                tekst
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="nieuws-item">
-                            <img src="assets/IMG/.jpg" alt="" class="nieuws-img">
-                            <h1 class="titel-nieuws">Item</h1>
-                            <p class="nieuws-tekst">
-                                tekst
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="nieuws-item">
-                            <img src="assets/IMG/.jpg" alt="" class="nieuws-img">
-                            <h1 class="titel-nieuws">Item</h1>
-                            <p class="nieuws-tekst">
-                                tekst
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="nieuws-item">
-                            <img src="assets/IMG/.jpg" alt="" class="nieuws-img">
-                            <h1 class="titel-nieuws">Item</h1>
-                            <p class="nieuws-tekst">
-                                tekst
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="nieuws-item">
-                            <img src="assets/IMG/.jpg" alt="" class="nieuws-img">
-                            <h1 class="titel-nieuws">Item</h1>
-                            <p class="nieuws-tekst">
-                                tekst
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="swiper-pagination"></div>
-
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-
-                <div class="swiper-scrollbar"></div>
             </div>
 
         </section>
@@ -391,13 +334,13 @@
                     <div class="icon">
                         <span class="fa fa-phone"></span>
                     </div>
-                    <p class="info-contact"><a href="tel://31610421614" class="info-contact">+31 6 10 42 16 14</a></p>
+                    <p class="info-contact">Dummy number</p>
                 </div>
                 <div class="info-item">
                     <div class="icon">
                         <span class="fa fa-paper-plane"></span>
                     </div>
-                    <p class="info-contact">capo@vancapototceo.nl</p>
+                    <p class="info-contact">Dummy email</p>
                 </div>
                 <div class="info-item">
                     <div class="icon">
@@ -407,7 +350,7 @@
                 </div>
             </div>
 
-            <form action="../vancapototceo/handeling/form.php" method="post">
+            <form>
                 <h2 class="titel">Contacteer Mij</h2>
                 <div class="form-group">
                     <label class="label" for="name">Naam</label>
@@ -422,7 +365,8 @@
 
                 <div class="form-group message">
                     <label class="label" for="message">Bericht</label>
-                    <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Bericht" required></textarea>
+                    <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Bericht"
+                        required></textarea>
                 </div>
 
                 <div class="form-group">
@@ -438,26 +382,5 @@
     <?php include 'import/footer.php'; ?>
 
 </body>
-
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-<script>
-    const swiper = new Swiper('.swiper', {
-        // Optional parameters
-        direction: 'horizontal',
-        loop: true,
-
-        // If we need pagination
-        pagination: {
-            el: '.swiper-pagination',
-        },
-
-        // Navigation arrows
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-    });
-</script>
 
 </html>
